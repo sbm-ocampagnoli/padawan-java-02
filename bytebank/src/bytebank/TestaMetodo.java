@@ -7,6 +7,10 @@ public class TestaMetodo {
 		contaDoPaulo.saldo = 100;
 		contaDoPaulo.deposita(50);
 		System.out.println(contaDoPaulo.saldo);
+
+		boolean conseguiuRetirar = contaDoPaulo.saca(50);
+		System.out.println(conseguiuRetirar);
+		System.out.println(contaDoPaulo.saldo);
 	}
 
 }
